@@ -29,7 +29,7 @@ class Pokedex(QWidget):
 
         # Create a background for the windows 
         bg = QLabel(self)
-        pix = QPixmap("./pokedex.png")
+        pix = QPixmap("./Images/pokedex.png")
         bg.setPixmap(pix)
         bg.setGeometry(0, 0, pix.width(), pix.height()) # The bg will take all the space 
         bg.lower()
@@ -241,7 +241,7 @@ class ClickZone(QLabel):
         self.click_enabled = True
 
         self.bg_style = """
-            background-image: url(./background.jpg);
+            background-image: url(./Images/background.jpg);
             background-repeat: no-repeat;
             background-position: center;
             border-radius: 15px;
