@@ -4,7 +4,7 @@ This project is a cat and dog project revisited with Pokémon. It is implemented
 
 The project consists of two Python files:
 
-- ....py: How we design and train our model. You can freely modify it or replace it with your own model.
+- code_final.py: How we design and train our model. You can freely modify it or replace it with your own model.
 
 - inter.py: Implements the graphical interface.
 
